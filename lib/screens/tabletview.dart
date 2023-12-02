@@ -21,6 +21,9 @@ class _TabletViewState extends State<TabletView> {
     return Scaffold(
       backgroundColor: yBackgroundColor,
       appBar: AppBar(
+        iconTheme: IconThemeData(
+          color: Colors.white,
+        ),
         backgroundColor: yBackgroundColor,
         // title: const Text(
         //   'YouTube',

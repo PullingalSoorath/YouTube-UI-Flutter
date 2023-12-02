@@ -38,11 +38,11 @@ class _YtDesktopDrawerState extends State<YtDesktopDrawer> {
             height: 10,
           ),
           DrawerSideButton(
-              
-              YbtnNme: 'Home',
-              icn: Icons.home,
-              btnclr: Colors.grey[900],
-              btnHvrclr: Colors.grey[800]),
+            YbtnNme: 'Home',
+            icn: Icons.home,
+            btnclr: Colors.grey[900],
+            btnHvrclr: Colors.grey[800],
+          ),
           DrawerSideButton(YbtnNme: 'Shorts', icn: Icons.video_stable_outlined),
           DrawerSideButton(
               YbtnNme: 'Subscription', icn: Icons.subscriptions_outlined),

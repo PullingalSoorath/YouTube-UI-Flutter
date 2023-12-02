@@ -68,7 +68,10 @@ class YSearchBar extends StatelessWidget {
               padding: const EdgeInsets.only(right: 10),
               child: IconButton(
                 onPressed: () {},
-                icon: const Icon(Icons.search),
+                icon: const Icon(
+                  Icons.search,
+                  color: Colors.white,
+                ),
               ),
             ),
           ],

@@ -25,7 +25,10 @@ class DrawerSideButton extends StatelessWidget {
               height: 44,
               child: ListTile(
                 shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12)),
+                  borderRadius: BorderRadius.circular(
+                    12,
+                  ),
+                ),
                 hoverColor: btnHvrclr ?? Colors.grey[900],
                 onTap: () {},
                 // titleAlignment: ListTileTitleAlignment.top,

@@ -3,11 +3,34 @@ import 'package:flutter/material.dart';
 
 Widget navbarIcon = Row(
   children: [
-    IconButton(onPressed: () {}, icon: const Icon(Icons.search)),
-    IconButton(onPressed: () {}, icon: const Icon(Icons.mic)),
-    IconButton(onPressed: () {}, icon: const Icon(CupertinoIcons.video_camera)),
     IconButton(
-        onPressed: () {}, icon: const Icon(Icons.notifications_active_rounded)),
+      onPressed: () {},
+      icon: const Icon(
+        Icons.search,
+        color: Colors.white,
+      ),
+    ),
+    IconButton(
+      onPressed: () {},
+      icon: const Icon(
+        Icons.mic,
+        color: Colors.white,
+      ),
+    ),
+    IconButton(
+      onPressed: () {},
+      icon: const Icon(
+        CupertinoIcons.video_camera,
+        color: Colors.white,
+      ),
+    ),
+    IconButton(
+      onPressed: () {},
+      icon: const Icon(
+        Icons.notifications_active_rounded,
+        color: Colors.white,
+      ),
+    ),
     Container(
       width: 25,
       height: 25,

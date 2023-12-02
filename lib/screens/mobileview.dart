@@ -18,10 +18,16 @@ class _MobileViewState extends State<MobileView> {
     return Scaffold(
       backgroundColor: yBackgroundColor,
       appBar: AppBar(
+        iconTheme: IconThemeData(
+          color: Colors.white,
+        ),
         backgroundColor: yBackgroundColor,
         title: const Text(
           'YouTube',
-          style: TextStyle(fontWeight: FontWeight.bold),
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
         ),
         actions: [
           navbarIcon,

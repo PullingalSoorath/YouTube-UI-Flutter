@@ -125,9 +125,10 @@ class _YtNewMobileDrawerState extends State<YtNewMobileDrawer> {
                         child: Text(
                           'YouTube',
                           style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 25), 
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 25,
+                          ),
                         ),
                       ),
                       SizedBox(

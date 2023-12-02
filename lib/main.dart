@@ -16,9 +16,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-
-      // home: MyListData(),
-
       home: ResponsiveLayout(
         mobileView: MobileView(),
         tabletView: TabletView(),

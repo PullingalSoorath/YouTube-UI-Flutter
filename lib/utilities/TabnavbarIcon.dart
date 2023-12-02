@@ -9,16 +9,33 @@ Widget TabnavbarIcon = Row(
     //   width: screenWidth,
     // ),
 
-    IconButton(onPressed: () {}, icon: const Icon(Icons.mic)),
-    SizedBox(
-      width: 10,
+    IconButton(
+      onPressed: () {},
+      icon: const Icon(
+        Icons.mic,
+        color: Colors.white,
+      ),
     ),
-    IconButton(onPressed: () {}, icon: const Icon(CupertinoIcons.video_camera)),
     SizedBox(
       width: 10,
     ),
     IconButton(
-        onPressed: () {}, icon: const Icon(Icons.notifications_active_rounded)),
+      onPressed: () {},
+      icon: const Icon(
+        CupertinoIcons.video_camera,
+        color: Colors.white,
+      ),
+    ),
+    SizedBox(
+      width: 10,
+    ),
+    IconButton(
+      onPressed: () {},
+      icon: const Icon(
+        Icons.notifications_active_rounded,
+        color: Colors.white,
+      ),
+    ),
     SizedBox(
       width: 10,
     ),

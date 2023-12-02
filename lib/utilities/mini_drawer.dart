@@ -41,7 +41,10 @@ class MiniDrawer extends StatelessWidget {
             ),
             Text(
               'Shorts',
-              style: TextStyle(color: Colors.white, fontSize: 10),
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 10,
+              ),
             ),
             SizedBox(
               height: 10,
@@ -58,7 +61,10 @@ class MiniDrawer extends StatelessWidget {
             ),
             Text(
               'Subscription',
-              style: TextStyle(color: Colors.white, fontSize: 10),
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 10,
+              ),
             ),
             SizedBox(
               height: 10,
@@ -75,7 +81,10 @@ class MiniDrawer extends StatelessWidget {
             ),
             Text(
               'You',
-              style: TextStyle(color: Colors.white, fontSize: 10),
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 10,
+              ),
             ),
             SizedBox(
               height: 10,
@@ -92,7 +101,10 @@ class MiniDrawer extends StatelessWidget {
             ),
             Text(
               'Downloards',
-              style: TextStyle(color: Colors.white, fontSize: 10),
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 10,
+              ),
             ),
             SizedBox(
               height: 10,

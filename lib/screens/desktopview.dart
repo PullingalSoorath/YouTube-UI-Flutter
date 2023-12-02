@@ -22,6 +22,9 @@ class _DesktopViewState extends State<DesktopView> {
     return Scaffold(
       backgroundColor: yBackgroundColor,
       appBar: AppBar(
+        iconTheme: IconThemeData(
+          color: Colors.white,
+        ),
         backgroundColor: yBackgroundColor,
         leading: Row(
           children: [
